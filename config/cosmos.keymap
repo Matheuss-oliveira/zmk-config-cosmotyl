@@ -8,6 +8,20 @@
 #define U_TAPPING_TERM 200
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        boot {
+            bindings = <&bootloader>;
+            key-positions = <39 40 45 46>;
+        };
+
+        boot {
+            bindings = <&bootloader>;
+            key-positions = <37 43 38 44>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
