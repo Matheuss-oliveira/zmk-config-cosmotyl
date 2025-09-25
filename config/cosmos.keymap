@@ -8,19 +8,7 @@
 #define U_TAPPING_TERM 200
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        boot-right {
-            bindings = <&bootloader>;
-            key-positions = <39 40 45 46>;
-        };
-
-        boot-left {
-            bindings = <&bootloader>;
-            key-positions = <37 43 38 44>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -47,11 +35,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans
+&lt 2 ESC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
