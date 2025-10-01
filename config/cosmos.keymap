@@ -29,7 +29,7 @@
 &trans  &trans        &trans        &kp PG_UP      &trans        &trans  &trans        &trans    &kp UP_ARROW  &trans     &trans  &bt BT_NXT
 &trans  &trans        &kp HOME      &kp PAGE_DOWN  &kp END       &trans  &trans        &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &bt BT_PRV
                                     &trans         &kp ENTER     &trans  &trans        &trans    &kp DEL
-                                    &trans         &trans        &trans  &trans        &trans
+                                    &trans         &trans        &trans  &kp LGUI      &trans
             >;
         };
     };
