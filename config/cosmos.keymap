@@ -16,21 +16,21 @@
 
         base {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp E          &kp R      &kp T             &kp Y              &kp U          &kp I          &kp O    &kp P      &kp LEFT_BRACKET
-&kp ESC    &kp A  &kp S  &kp D          &kp F      &kp G             &kp H              &kp J          &kp K          &kp L    &kp SEMI   &kp SQT
-&kp TAB    &kp Z  &kp X  &kp C          &kp V      &kp B             &kp N              &kp M          &kp COMMA      &kp DOT  &kp SLASH  &kp NON_US_BACKSLASH
-                         &kp ENTER      &mo 1      &kp SPACE         &kp MINUS          &lt 1 PLUS     &kp BACKSPACE
-                         &kp RIGHT_ALT  &kp SPACE  &kp LEFT_CONTROL  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp GRAVE  &kp Q  &kp W  &kp E          &kp R      &kp T      &kp Y              &kp U          &kp I          &kp O    &kp P      &kp LEFT_BRACKET
+&kp ESC    &kp A  &kp S  &kp D          &kp F      &kp G      &kp H              &kp J          &kp K          &kp L    &kp SEMI   &kp SQT
+&kp TAB    &kp Z  &kp X  &kp C          &kp V      &kp B      &kp N              &kp M          &kp COMMA      &kp DOT  &kp SLASH  &kp NON_US_BACKSLASH
+                         &trans         &kp SPACE  &kp LCTRL  &kp MINUS          &lt 1 PLUS     &kp BACKSPACE
+                         &kp RIGHT_ALT  &mo 1      &kp LSHFT  &kp RIGHT_BRACKET  &kp BACKSLASH
             >;
         };
 
         lower {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5        &kp NUMBER_6       &kp N7             &kp N8        &kp N9     &kp N0  &bt BT_CLR
-&trans  &trans        &kp HOME      &kp PG_UP      &kp END       &kp LEFT_GUI  &kp K_SCROLL_UP    &mkp MB1           &kp UP_ARROW  &mkp MB2   &trans  &trans
-&trans  &trans        &trans        &kp PAGE_DOWN  &trans        &trans        &kp K_SCROLL_DOWN  &kp LEFT_ARROW     &kp DOWN      &kp RIGHT  &trans  &trans
-                                    &trans         &trans        &trans        &bt BT_PRV         &kp K_VOLUME_UP    &kp DEL
-                                    &trans         &trans        &trans        &bt BT_NXT         &kp K_VOLUME_DOWN
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5        &kp NUMBER_6       &kp N7           &kp N8        &kp N9     &kp N0  &bt BT_CLR
+&trans  &trans        &kp HOME      &kp PG_UP      &kp END       &kp LEFT_GUI  &kp K_SCROLL_UP    &mkp MB1         &kp UP_ARROW  &mkp MB2   &trans  &trans
+&trans  &trans        &trans        &kp PAGE_DOWN  &trans        &trans        &kp K_SCROLL_DOWN  &kp LEFT_ARROW   &kp DOWN      &kp RIGHT  &trans  &trans
+                                    &trans         &kp LSHFT     &trans        &bt BT_PRV         &kp K_VOLUME_UP  &kp DEL
+                                    &trans         &trans        &trans        &bt BT_NXT         &kp RET
             >;
         };
     };
