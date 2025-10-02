@@ -16,11 +16,11 @@
 
         base {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp E          &kp R      &kp T           &kp Y              &kp U          &kp I          &kp O    &kp P      &kp LEFT_BRACKET
-&kp ESC    &kp A  &kp S  &kp D          &kp F      &kp G           &kp H              &kp J          &kp K          &kp L    &kp SEMI   &kp SQT
-&kp TAB    &kp Z  &kp X  &kp C          &kp V      &kp B           &kp N              &kp M          &kp COMMA      &kp DOT  &kp SLASH  &kp NON_US_BACKSLASH
-                         &kp LGUI       &kp SPACE  &kp LCTRL       &kp MINUS          &lt 1 PLUS     &kp BACKSPACE
-                         &kp RIGHT_ALT  &mo 1      &kp LEFT_SHIFT  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp GRAVE  &kp Q  &kp W  &kp E         &kp R            &kp T      &kp Y              &kp U          &kp I          &kp O    &kp P      &kp LEFT_BRACKET
+&kp ESC    &kp A  &kp S  &kp D         &kp F            &kp G      &kp H              &kp J          &kp K          &kp L    &kp SEMI   &kp SQT
+&kp TAB    &kp Z  &kp X  &kp C         &kp V            &kp B      &kp N              &kp M          &kp COMMA      &kp DOT  &kp SLASH  &kp NON_US_BACKSLASH
+                         &kp LEFT_ALT  &kp SPACE        &kp LCTRL  &kp MINUS          &lt 1 PLUS     &kp BACKSPACE
+                         &kp ENTER     &kp RIGHT_SHIFT  &mo 1      &kp RIGHT_BRACKET  &kp BACKSLASH
             >;
         };
 
@@ -29,8 +29,8 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7    &kp N8        &kp N9     &kp N0  &bt BT_CLR
 &trans  &trans        &kp HOME      &kp PG_UP      &kp END       &msc SCRL_UP    &mkp MB2      &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &bt BT_NXT
 &trans  &trans        &trans        &kp PAGE_DOWN  &trans        &msc SCRL_DOWN  &trans        &trans    &kp DOWN      &trans     &trans  &bt BT_PRV
-                                    &trans         &kp ENTER     &trans          &mkp MB1      &trans    &kp DEL
-                                    &trans         &trans        &trans          &kp LGUI      &trans
+                                    &trans         &trans        &kp RIGHT_GUI   &trans        &trans    &kp DEL
+                                    &trans         &trans        &trans          &kp LGUI      &mkp MB1
             >;
         };
     };
