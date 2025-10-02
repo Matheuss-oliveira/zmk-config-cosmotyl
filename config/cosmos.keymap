@@ -28,9 +28,9 @@
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5          &kp NUMBER_6       &kp N7    &kp N8        &kp N9     &kp N0  &bt BT_CLR
 &trans  &trans        &kp HOME      &kp PG_UP      &kp END       &msc SCRL_UP    &mkp MB2           &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &bt BT_NXT
-&trans  &trans        &trans        &kp PAGE_DOWN  &trans        &msc SCRL_DOWN  &trans             &trans    &kp DOWN      &trans     &trans  &bt BT_PRV
+&trans  &trans        &trans        &kp PAGE_DOWN  &trans        &msc SCRL_DOWN  &trans             &mkp MB1  &kp DOWN      &trans     &trans  &bt BT_PRV
                                     &trans         &trans        &kp RIGHT_GUI   &kp C_VOL_UP       &trans    &kp DEL
-                                    &trans         &trans        &trans          &kp C_VOLUME_DOWN  &mkp MB1
+                                    &trans         &trans        &trans          &kp C_VOLUME_DOWN  &trans
             >;
         };
     };
