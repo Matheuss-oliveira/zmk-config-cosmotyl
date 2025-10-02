@@ -26,21 +26,11 @@
 
         lower {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5          &kp NUMBER_6       &kp N7    &kp N8        &kp N9     &kp N0  &bt BT_CLR
-&trans  &trans        &kp HOME      &kp PG_UP      &kp END       &msc SCRL_UP    &mkp MB2           &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &bt BT_NXT
-&trans  &trans        &trans        &kp PAGE_DOWN  &trans        &msc SCRL_DOWN  &trans             &mkp MB1  &kp DOWN      &trans     &trans  &bt BT_PRV
-                                    &trans         &trans        &kp RIGHT_GUI   &kp C_VOL_UP       &trans    &kp DEL
-                                    &trans         &trans        &trans          &kp C_VOLUME_DOWN  &trans
-            >;
-        };
-
-        layer_2 {
-            bindings = <
-&trans  &trans             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &trans   &kp N1  &kp N2  &kp N3  &kp PG_UP      &trans
-&trans  &kp K_VOLUME_UP    &kp LEFT      &kp UP        &kp RIGHT     &kp HOME    &kp END  &kp N4  &kp N5  &kp N6  &kp PAGE_DOWN  &trans
-&trans  &kp C_VOLUME_DOWN  &trans        &kp DOWN      &trans        &trans      &trans   &kp N7  &kp N8  &kp N9  &kp N0         &trans
-                                         &trans        &trans        &trans      &trans   &trans  &trans
-                                         &trans        &trans        &trans      &trans   &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5          &kp NUMBER_6       &kp N7             &kp N8        &kp N9     &kp N0  &bt BT_CLR
+&trans  &trans        &kp HOME      &kp PG_UP      &kp END       &kp LEFT_GUI    &kp K_SCROLL_UP    &mkp MB1           &kp UP_ARROW  &mkp MB2   &trans  &trans
+&trans  &trans        &trans        &kp PAGE_DOWN  &trans        &msc SCRL_DOWN  &kp K_SCROLL_DOWN  &kp LEFT_ARROW     &kp DOWN      &kp RIGHT  &trans  &trans
+                                    &trans         &trans        &trans          &bt BT_PRV         &kp K_VOLUME_UP    &kp DEL
+                                    &trans         &trans        &trans          &bt BT_NXT         &kp K_VOLUME_DOWN
             >;
         };
     };
