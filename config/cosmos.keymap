@@ -38,11 +38,11 @@
 
         lower {
             bindings = <
-&bt BT_SEL 0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5         &kp NUMBER_6       &kp N7        &kp N8        &kp N9        &kp N0         &bt BT_CLR
-&bt BT_SEL 1  &kp HOME      &kp END       &kp LEFT       &kp DOWN      &mkp MB2       &mkp MB1           &kp UP        &kp RIGHT     &kp PAGE_UP   &kp PAGE_DOWN  &trans
-&trans        &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(NUMBER_6)   &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)   &trans
-                                          &trans         &trans        &trans         &kp C_AC_ZOOM_IN   &kp K_MUTE    &kp DEL
-                                          &trans         &trans        &trans         &kp C_AC_ZOOM_OUT  &kp ENTER
+&bt BT_SEL 0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5          &kp NUMBER_6      &kp N7        &kp N8        &kp N9        &kp N0         &bt BT_CLR
+&bt BT_SEL 1  &kp HOME      &kp END       &kp LEFT       &mkp MB2      &kp DOWN_ARROW  &kp UP_ARROW      &mkp MB1      &kp RIGHT     &kp PAGE_UP   &kp PAGE_DOWN  &trans
+&trans        &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)   &kp LS(NUMBER_6)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)   &trans
+                                          &trans         &trans        &trans          &trans            &kp C_MUTE    &kp DEL
+                                          &trans         &trans        &trans          &trans            &kp ENTER
             >;
         };
     };
